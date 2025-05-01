@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHIFT</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#home" class="logo">SHIFት</a>
+                <nav class="main-nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#partners">Partners</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="btn btn-primary mobile-hidden">Get Started</button>
+                <button class="menu-toggle" id="menuToggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <ul class="mobile-nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#partners">Partners</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button class="btn btn-primary">Get Started</button></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>SHIFT is building the bridge between African universities and the world of work.</h1>
+                        <p>Real-world experience. Real results. Before graduation.</p>
+                        <div class="hero-buttons">
+                            <a href="#programs" class="btn btn-primary">
+                                Join as a Student
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <a href="#partners" class="btn btn-outline">Partner with Us</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="assets/hero-image.jpg" alt="African students collaborating">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Highlights Section -->
+        <section class="highlights">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Key Highlights</h2>
+                    <p>What makes SHIFት unique in connecting students to opportunities</p>
+                </div>
+                <div class="highlights-cards">
+                    <div class="highlight-card">
+                        <div class="icon-circle">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Student Matching</h3>
+                        <p>We connect talented students with the right opportunities based on skills, interests, and career goals.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="icon-circle">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <h3>Research-Driven</h3>
+                        <p>Our approach is backed by extensive research on workforce development and educational outcomes.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="icon-circle">
+                            <i class="fas fa-globe-africa"></i>
+                        </div>
+                        <h3>Pan-African Reach</h3>
+                        <p>We operate across multiple African countries, creating a diverse network of opportunities.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="icon-circle">
+                            <i class="fas fa-universal-access"></i>
+                        </div>
+                        <h3>Accessibility Supportt</h3>
+                        <p>
+                            We offer tailored support to empower students with disabilities in adapting to part-time employment and professional settings.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>About SHIFት</h2>
+                    <p>We're building the bridge between African universities and the world of work.</p>
+                </div>
+
+                <!-- Mission & Vision Section -->
+                <div class="two-column">
+                    <div class="column">
+                        <div class="tag">Our Mission</div>
+                        <h3>Empowering African students with real-world experience</h3>
+                        <p>
+                            SHIFT connects university students across Africa with meaningful work opportunities before they
+                            graduate, ensuring they enter the job market with practical skills and experience that make them
+                            valuable contributors from day one.</div>
+                    <div class="column">
+                        <div class="tag">Our Vision</div>
+                        <h3>A future where every African graduate is workforce-ready</h3>
+                        <p>
+                            We envision a future where the gap between education and employment in Africa is bridged, where students
+                            graduate not just with theoretical knowledge but with practical skills, professional networks, and the
+                            confidence to succeed in their careers. </p>
+                    </div>
+                </div>
+
+                <!-- CEO Story Section -->
+                <div class="ceo-story">
+                    <div class="section-header">
+                        <h3>Our Story</h3>
+                        <p>How SHIFT came to be</p>
+                    </div>
+                    <div class="story-container">
+                        <div class="ceo-image">
+                            <img src="assets/ceo-portrait.jpg" alt="Dr. Amina Nkosi, CEO of SHIFT">
+                        </div>
+                        <div class="ceo-message">
+                            <h4>A Message from Our CEO</h4>
+                            <p>
+                                "SHIFT started with a moment I’ll never forget. I walked into a campus restroom and saw a paper used as a pad. That single image stuck with me—it said everything about how much our students are struggling just to survive. And I couldn’t unsee it. It made me ask: what if we built a system where students don’t just survive—but thrive?
+
+                                That was the beginning.
+                                
+                                SHIFT started as a simple but powerful idea: to create a platform where students could use their skills to earn income, gain real experience, and build their future—starting with a digital part-time job system. We realized that students aren’t short on talent. They’re short on opportunity, connection, and support. So we started building something that could shift that reality.
+                                
+                                Now, SHIFT is more than just a part-time job platform. It’s a full ecosystem where students, young professionals, and the diaspora come together to create solutions for real problems across Africa. From law and tech to research and entrepreneurship—we’re building multidisciplinary teams, launching local projects, and opening doors for collaboration with the world.
+                                
+                                We’re not waiting for change. We’re building it—one skill, one job, one SHIFት at a time. "</p>
+                            <div class="ceo-signature">
+                                <p class="signature-name">Bethlehem Solomon</p>
+                                <p class="signature-title">Founder & CEO, SHIFት</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image Carousel Section -->
+                <div class="carousel-section">
+                    <h3 class="section-title">SHIFት in Action</h3>
+                    <div class="carousel-container">
+                        <div class="carousel" id="imageCarousel">
+                            <div class="carousel-item">
+                                <img src="assets/program-photo-1.jpg" alt="SHIFT program photo 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/program-photo-2.jpg" alt="SHIFT program photo 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/program-photo-3.jpg" alt="SHIFT program photo 3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/program-photo-4.jpg" alt="SHIFT program photo 3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/program-photo-5.jpg" alt="SHIFT program photo 3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/program-photo-6.jpg" alt="SHIFT program photo 3">
+                            </div>
+                        </div>
+                        <div class="carousel-controls">
+                            <button class="carousel-control prev" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+                            <div class="carousel-indicators" id="carouselIndicators"></div>
+                            <button class="carousel-control next" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Our Values Section -->
+                <div class="values-section">
+                    <div class="section-header">
+                        <h3>Our Values</h3>
+                        <p>The principles that guide everything we do</p>
+                    </div>
+                    <div class="values-grid">
+                        <div class="value-card">
+                            <div class="icon-circle">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <h4>Empathy</h4>
+                            <p>We understand the challenges students face and design our programs with their needs in mind.</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="icon-circle">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <h4>Excellence</h4>
+                            <p>We strive for the highest standards in everything we do, from program design to student support.</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="icon-circle">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h4>Collaboration</h4>
+                            <p>We believe in the power of partnerships between students, universities, and organizations.</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="icon-circle">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h4>Innovation</h4>
+                            <p>We continuously seek new and better ways to connect students with meaningful opportunities.</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="icon-circle">
+                                <i class="fas fa-globe-africa"></i>
+                            </div>
+                            <h4>Inclusivity</h4>
+                            <p>We are committed to creating opportunities for students from all backgrounds across Africa.</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="icon-circle">
+                                <i class="fas fa-book-open"></i>
+                            </div>
+                            <h4>Growth</h4>
+                            <p>We believe in continuous learning and development, helping students grow both professionally and personally.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Programs Section -->
+        <section id="programs" class="programs-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Programs</h2>
+                    <p>Connecting students, organizations, and universities for mutual growth and success.</p>
+                </div>
+
+                <div class="tabs-container">
+                    <div class="tabs">
+                        <button class="tab-btn active" data-tab="students">
+                            <i class="fas fa-graduation-cap"></i> For Students
+                        </button>
+                        <button class="tab-btn" data-tab="organizations">
+                            <i class="fas fa-building"></i> For Organizations
+                        </button>
+                        <button class="tab-btn" data-tab="universities">
+                            <i class="fas fa-school"></i> For Universities
+                        </button>
+                    </div>
+
+                    <div class="tab-content active" id="students">
+                        <div class="two-column">
+                            <div class="column">
+                               
+                            </div>
+                            <div class="column">
+                                <h3>Student Programs</h3>
+                                <p>Our student programs are designed to bridge the gap between academic learning and professional
+                                    experience, providing you with the skills, connections, and confidence you need to succeed in your
+                                    career.</p>
+                                <ul class="feature-list">
+                                    <li>
+                                        <i class="fas fa-arrow-right"></i>
+                                        <div>
+                                            <h4>Internship Matching</h4>
+                                            <p>We connect you with internship opportunities that align with your skills, interests, and
+                                                career goals.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-arrow-right"></i>
+                                        <div>
+                                            <h4>Upskilling Workshops</h4>
+                                            <p>Develop the professional and technical skills that employers are looking for through our
+                                                targeted workshops.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-arrow-right"></i>
+                                        <div>
+                                            <h4>Mentorship</h4>
+                                            <p>Receive guidance and support from experienced professionals in your field of interest.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a href="#contact" class="btn btn-primary">Join Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-content" id="organizations">
+                        <div class="two-column reverse">
+                            <div class="column">
+                                <h3>Organization Programs</h3>
+                                <p>Partner with SHIFT to access a pipeline of talented, pre-screened students who are eager to
+                                    contribute to your organization while gaining valuable experience.</p>
+                                <ul class="feature-list">
+                                    <li>
+                                        <i class="fas fa-arrow-right"></i>
+                                        <div>
+                                            <h4>Talent Access</h4>
+                                            <p>Connect with motivated students who bring fresh perspectives and innovative ideas to your
+                                                projects.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-arrow-right"></i>
+                                        <div>
+                                            <h4>Research Insights</h4>
+                                            <p>Gain valuable insights into the emerging workforce and educational landscape in Africa.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-arrow-right"></i>
+                                        <div>
+                                            <h4>CSR Opportunities</h4>
+                                            <p>Fulfill your corporate social responsibility goals by investing in the future workforce.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a href="#contact" class="btn btn-primary">Partner with Us</a>
+                            </div>
+                            <div class="column">
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-content" id="universities">
+                        <div class="two-column">
+                            <div class="column">
+                                
+                            </div>
+                            <div class="column">
+                                <h3>University Programs</h3>
+                                <p>Collaborate with SHIFT to enhance your curriculum with practical experience opportunities, improving
+                                    student outcomes and strengthening industry connections.</p>
+                                <ul class="feature-list">
+                                    <li>
+                                        <i class="fas fa-arrow-right"></i>
+                                        <div>
+                                            <h4>Institutional Collaboration</h4>
+                                            <p>Integrate real-world experience into your curriculum through structured programs.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-arrow-right"></i>
+                                        <div>
+                                            <h4>Industry Connections</h4>
+                                            <p>Build relationships with leading organizations across various industries.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-arrow-right"></i>
+                                        <div>
+                                            <h4>Student Success Metrics</h4>
+                                            <p>Track and measure the impact of practical experience on student outcomes and employability.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a href="#contact" class="btn btn-primary">Explore Partnership</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partners Section -->
+        <section id="partners" class="partners-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Together, we're creating Africa's future workforce.</h2>
+                    <p>Our partners are essential to our mission of connecting students with real-world opportunities.</p>
+                    <p>Our potential partners.</p>
+                </div>
+
+                <!-- Partners Grid Section -->
+                <div class="tabs-container">
+                    <div class="tabs">
+                        <button class="tab-btn active" data-tab="all-partners">All</button>
+                        <button class="tab-btn" data-tab="corporate-partners">
+                            <i class="fas fa-building"></i> Corporate
+                        </button>
+                        <button class="tab-btn" data-tab="ngo-partners">
+                            <i class="fas fa-graduation-cap"></i> NGO
+                        </button>
+                        <button class="tab-btn" data-tab="government-partners">
+                            <i class="fas fa-school"></i> Government
+                        </button>
+                    </div>
+
+                    <div class="tab-content active" id="all-partners">
+                        <div class="partners-logo-grid">
+                            <div class="partner-logo"><img src="assets/partner-logo-1.png" alt="Partner logo 1"></div>
+                           
+                            <div class="partner-logo"><img src="assets/partner-logo-3.jpg" alt="Partner logo 3"></div>
+                            <div class="partner-logo"><img src="assets/partner-logo-4.png" alt="Partner logo 4"></div>
+                            <div class="partner-logo"><img src="assets/partner-logo-5.jpg" alt="Partner logo 5"></div>
+                           
+                            <div class="partner-logo"><img src="assets/partner-logo-7.jpg" alt="Partner logo 7"></div>
+                           
+                           
+                            <div class="partner-logo"><img src="assets/partner-logo-11.png" alt="Partner logo 11"></div>
+                            <div class="partner-logo"><img src="assets/partner-logo-2.jpg" alt="Partner logo 12"></div>
+                        </div>
+                    </div>
+
+                    <div class="tab-content" id="corporate-partners">
+                        <div class="partners-logo-grid">
+                            <div class="partner-logo"><img src="assets/partner-logo-1.png" alt="Corporate partner logo 1"></div>
+                            <div class="partner-logo"><img src="assets/partner-logo-2.jpg" alt="Corporate partner logo 2"></div>
+                            <div class="partner-logo"><img src="assets/partner-logo-3.jpg" alt="Corporate partner logo 3"></div>
+                            <div class="partner-logo"><img src="assets/partner-logo-4.png" alt="Corporate partner logo 4"></div>
+                            <div class="partner-logo"><img src="assets/partner-logo-5.jpg" alt="Corporate partner logo 5"></div>
+                           
+                            <div class="partner-logo"><img src="assets/partner-logo-7.jpg" alt="Corporate partner logo 7"></div>
+                           
+                        </div>
+                    </div>
+
+                    <div class="tab-content" id="ngo-partners">
+                        <div class="partners-logo-grid">
+                           
+                            
+                            <div class="partner-logo"><img src="assets/partner-logo-11.png" alt="NGO partner logo 3"></div>
+                            <div class="partner-logo"><img src="assets/partner-logo-2.jpg" alt="NGO partner logo 4"></div>
+                        </div>
+                    </div>
+
+                    <div class="tab-content" id="government-partners">
+                        <div class="partners-logo-grid">
+                            <div class="partner-logo"><img src="assets/partner-logo-1.png" alt="Government partner logo 1"></div>
+                            <div class="partner-logo"><img src="assets/partner-logo-3.jpg" alt="Government partner logo 2"></div>
+                            <div class="partner-logo"><img src="assets/partner-logo-5.jpg" alt="Government partner logo 3"></div>
+                            <div class="partner-logo"><img src="assets/partner-logo-7.jpg" alt="Government partner logo 4"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Partner Benefits Section -->
+                <div class="partner-benefits">
+                    <div class="section-header">
+                        <h3>Partner Benefits</h3>
+                        <p>Discover the advantages of partnering with SHIFት</p>
+                    </div>
+                    <div class="benefits-grid">
+                        <div class="benefit-card">
+                            <div class="icon-circle">
+                                <i class="fas fa-building"></i>
+                            </div>
+                            <h4>Access to Talent</h4>
+                            <p>Connect with motivated, pre-screened students who bring fresh perspectives and innovative ideas to your
+                                projects.</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="icon-circle">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h4>Brand Visibility</h4>
+                            <p>Enhance your brand's visibility among the next generation of professionals and position yourself as an
+                                employer of choice.</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="icon-circle">
+                                <i class="fas fa-school"></i>
+                            </div>
+                            <h4>Social Impact</h4>
+                            <p>Contribute to the development of Africa's future workforce and make a meaningful impact on education and
+                                employment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Contact Us</h2>
+                    <p>We'd love to hear from you. Reach out to us with any questions or inquiries.</p>
+                </div>
+
+                <div class="telegram-join">
+                    <div class="telegram-icon">
+                        <i class="fab fa-telegram"></i>
+                    </div>
+                    <div class="telegram-content">
+                        <h3>Join Our Telegram Community</h3>
+                        <p>Be among the first to join our Telegram group and get privileged access to opportunities!</p>
+                        <p class="telegram-highlight">The first few members to join our Telegram group will be given priority consideration for upcoming opportunities and early registration access.</p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon-circle small">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p>fromshift.toshift@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon-circle small">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <p>+251929100099</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://t.me/ShiftStudents" target="_blank" class="btn btn-primary telegram-btn">
+                            <i class="fab fa-telegram"></i> Join Telegram Group
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Contact Categories Section -->
+                <div class="contact-categories">
+                    <div class="section-header">
+                        <h3>How Can We Help?</h3>
+                        <p>Select the appropriate department for your inquiry</p>
+                    </div>
+                    <div class="tabs-container">
+                        <div class="tabs">
+                            <button class="tab-btn active" data-tab="general-contact">
+                                <i class="fas fa-comment"></i> General
+                            </button>
+                            <button class="tab-btn" data-tab="press-contact">
+                                <i class="fas fa-file-alt"></i> Press
+                            </button>
+                            <button class="tab-btn" data-tab="partnerships-contact">
+                                <i class="fas fa-users"></i> Partnerships
+                            </button>
+                        </div>
+
+                        <div class="tab-content active" id="general-contact">
+                            <div class="contact-card">
+                                <h4>General Inquiries</h4>
+                                <p>For general questions about SHIFት, our programs, or how to get involved, please contact us at:</p>
+                                <div class="contact-method">
+                                    <i class="fas fa-envelope"></i>
+                                    <p>fromshift.toshift@gmail.com</p>
+                                </div>
+                                <div class="contact-method">
+                                    <i class="fas fa-phone"></i>
+                                    <p>+251929100099</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-content" id="press-contact">
+                            <div class="contact-card">
+                                <h4>Press Inquiries</h4>
+                                <p>For media inquiries, interview requests, or press materials, please contact our press team at:</p>
+                                <div class="contact-method">
+                                    <i class="fas fa-envelope"></i>
+                                    <p>fromshift.toshift@gmail.com</p>
+                                </div>
+                                <div class="contact-method">
+                                    <i class="fas fa-phone"></i>
+                                    <p>+251929100099</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="tab-content" id="partnerships-contact">
+                            <div class="contact-card">
+                                <h4>Partnership Opportunities</h4>
+                                <p>For information about partnering with SHIFት, whether as a corporate partner, NGO, or government
+                                    entity, please contact:</p>
+                                <div class="contact-method">
+                                    <i class="fas fa-envelope"></i>
+                                    <p>partnerships@shift.africa</p>
+                                </div>
+                                <div class="contact-method">
+                                    <i class="fas fa-phone"></i>
+                                    <p>+251929100099</p>
+                                </div>
+                                <a href="#partners" class="learn-more-link">
+                                    Learn more about partnerships
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <h2>Ready to make a difference?</h2>
+                <p>Join SHIFትት today and be part of the movement transforming education and employment in Africa.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-light">Join as a Student</a>
+                    <a href="#partners" class="btn btn-outline-light">Partner with Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>SHIFት</h3>
+                    <p>Building the bridge between African universities and the world of work.</p>
+                    <div class="social-links">
+                        
+                        <a href="https://www.instagram.com/onshiftmode?igsh=MWRqY2owM3A5c2g4Yg%3D%3D&utm_source=qr"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/0nshiftmode/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#partners">Partners</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Programs</h3>
+                    <ul class="footer-links">
+                        <li><a href="#programs">For Students</a></li>
+                        <li><a href="#programs">For Organizations</a></li>
+                        <li><a href="#programs">For Universities</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <address>
+                        <p>Email: fromshift.toshift@gmail.com</p>
+                        <p>Phone: +251929100099</p>
+                    </address>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> SHIFት. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
